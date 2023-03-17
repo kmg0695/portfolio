@@ -1,7 +1,7 @@
 ---
 title: "Azure Data Scientist Associate (In Progress)"
 date: 2023-03-16T19:30:01-04:00
-draft: true
+draft: false
 ---
 
 ## 2022 -

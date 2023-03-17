@@ -1,9 +1,7 @@
 ---
 title: "Skills"
 date: 2023-03-16T19:18:36-04:00
-draft: true
-comments: false
-images:
+draft: false
 ---
 
 ## Languages
