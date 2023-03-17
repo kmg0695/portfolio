@@ -97,3 +97,8 @@ url = "education/"
 identifier = "skills"
 name = "Skills"
 url = "skills/"
+
+[[menu.main]]
+identifier = "about-me"
+name = "About Me"
+url = "about-me/"
