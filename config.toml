@@ -49,16 +49,12 @@ enableThemeToggle = true
 enableSharingButtons = false
 justifyContent = true
 
-# Custom footer
-# If you want, you can easily override the default footer with your own content.
-#
 [params.footer]
 trademark = false
 rss = false
 copyright = false
 author = false
 topText = []
-bottomText = ["Powered by <a href=\"http://gohugo.io\">Hugo</a>"]
 
 [params.favicon.color]
 mask = "#1b1c1d"
@@ -67,8 +63,10 @@ theme = "#1b1c1d"
 
 [params.logo]
 logoMark = ">"
-logoText = "$ kmg0695 "
+logoText = "$ cd ~/"
 logoHomeLink = "/"
+logoCursorColor = "#56F4FF"
+logoCursorPathname = true
 
 [[params.social]]
 name = "email"
