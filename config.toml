@@ -1,0 +1,99 @@
+baseURL = "https://kymgripal"
+title = "Kym Michael Gripal"
+languageCode = "en-us"
+theme = "hello-friend-ng"
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+paginate = 10
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+archetypeDir = "archetypes"
+contentDir = "content"
+dataDir = "data"
+layoutDir = "layouts"
+publishDir = "public"
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+canonifyURLs = true
+enableRobotsTXT = true
+enableGitInfo = false
+enableEmoji = true
+enableMissingTranslationPlaceholders = false
+disableRSS = false
+disableSitemap = false
+disable404 = false
+disableHugoGeneratorInject = false
+
+[permalinks]
+posts = "/posts/:year/:month/:title/"
+
+[author]
+name = "Kym Michael Gripal"
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+series = "series"
+
+[params]
+dateform = "Jan 2, 2006"
+dateformShort = "Jan 2"
+dateformNum = "2006-01-02"
+dateformNumTime = "2006-01-02 15:04"
+# Metadata mostly used in document's head
+#
+description = "Portfolio website for Kym Michael Gripal"
+keywords = "portfolio, blog, resume, cv, Kym Michael Gripal, kmg0695"
+images = [""]
+# Home subtitle of the index page.
+#
+homeSubtitle = "Computer Programming and Analysis Student at George Brown College"
+disableReadOtherPosts = false
+enableThemeToggle = true
+enableSharingButtons = false
+justifyContent = true
+
+# Custom footer
+# If you want, you can easily override the default footer with your own content.
+#
+[params.footer]
+trademark = false
+rss = false
+copyright = false
+author = false
+topText = []
+bottomText = ["Powered by <a href=\"http://gohugo.io\">Hugo</a>"]
+
+[params.favicon.color]
+mask = "#1b1c1d"
+msapplication = "#1b1c1d"
+theme = "#1b1c1d"
+
+[params.logo]
+logoMark = ">"
+logoText = "$ kmg0695@kymgripal.com "
+logoHomeLink = "/"
+
+[[params.social]]
+name = "email"
+url = "mailto:hi@kymgripal.com"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/kmg0695"
+
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/kym-michael-gripal/"
+
+[menu]
+
+[[menu.main]]
+identifier = "education"
+name = "Education"
+url = "education/"
+
+[[menu.main]]
+identifier = "skills"
+name = "Skills"
+url = "skills/"
