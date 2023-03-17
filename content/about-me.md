@@ -10,4 +10,4 @@ I'm a third year computer programming and analysis student at George Brown Colle
 
 I have two years of experience in server administration and I'm looking for opportunities to gain experience in different areas of information technology.
 
-I'm proud to say that I have a 3.92 GPA and have been on the dean's list for three years.
+I have a 3.92 GPA and have been on the dean's list for three years.
