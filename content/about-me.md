@@ -1,10 +1,10 @@
 ---
-title: "About Me"
-date: 2023-03-16T20:15:11-04:00
+title: About Me
+date: 2023-03-17T06:10:41.170Z
 draft: false
 ---
 
-Hi there!
+## Hi there!
 
 I'm a third year computer programming and analysis student at George Brown College.
 
