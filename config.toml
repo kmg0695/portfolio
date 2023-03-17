@@ -102,3 +102,8 @@ url = "skills/"
 identifier = "about-me"
 name = "About Me"
 url = "about-me/"
+
+[[menu.main]]
+identifier = "work"
+name = "Work Exp."
+url = "work/"
