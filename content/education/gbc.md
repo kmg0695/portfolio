@@ -1,10 +1,12 @@
 ---
-title: "George Brown College"
-date: 2023-03-16T19:20:05-04:00
+title: "George Brown College | Computer Programming and Analysis (In Progress)"
+date: 2023-01-09T19:20:05-04:00
 draft: false
 ---
 
 ## 2020 - 2023
+
+#### _Ontario College Advanced Diploma_
 
 - Dean’s List, all years
 - Obtained a GPA of 3.88
