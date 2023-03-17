@@ -1,11 +1,10 @@
-baseURL = "https://kymgripal"
+baseURL = "https://kymgripal.com"
 title = "Kym Michael Gripal"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 paginate = 10
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 archetypeDir = "archetypes"
 contentDir = "content"
 dataDir = "data"
@@ -19,7 +18,7 @@ enableRobotsTXT = true
 enableGitInfo = false
 enableEmoji = true
 enableMissingTranslationPlaceholders = false
-disableRSS = false
+disableRSS = true
 disableSitemap = false
 disable404 = false
 disableHugoGeneratorInject = false
@@ -45,9 +44,6 @@ dateformNumTime = "2006-01-02 15:04"
 description = "Portfolio website for Kym Michael Gripal"
 keywords = "portfolio, blog, resume, cv, Kym Michael Gripal, kmg0695"
 images = [""]
-# Home subtitle of the index page.
-#
-homeSubtitle = "Computer Programming and Analysis Student at George Brown College"
 disableReadOtherPosts = false
 enableThemeToggle = true
 enableSharingButtons = false
@@ -71,7 +67,7 @@ theme = "#1b1c1d"
 
 [params.logo]
 logoMark = ">"
-logoText = "$ kmg0695@kymgripal.com "
+logoText = "$ kmg0695 "
 logoHomeLink = "/"
 
 [[params.social]]
@@ -107,3 +103,8 @@ url = "about-me/"
 identifier = "work"
 name = "Work Exp."
 url = "work/"
+
+[[menu.main]]
+identifier = "Projects"
+name = "Projects"
+url = "projects/"
