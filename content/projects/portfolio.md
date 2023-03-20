@@ -7,4 +7,5 @@ draft: false
 - Static portfolio site using the following technologies
   - [Hugo](https://gohugo.io/)
   - Theme used: [Hello Friend NG](https://github.com/rhazdon/hugo-theme-hello-friend-ng)
-- Production site and codebase hosted on [GitHub](https://github.com/kmg0695/portfolio)
+- Production codebase hosted on [GitHub](https://github.com/kmg0695/portfolio)
+- Site deployed and hosted on Cloudflare
