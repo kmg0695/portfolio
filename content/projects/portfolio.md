@@ -8,5 +8,8 @@ draft: false
   - [Hugo](https://gohugo.io/)
   - Content is written using Markdown
   - The theme used is [Hello Friend NG](https://github.com/rhazdon/hugo-theme-hello-friend-ng).
+  - Git for version control
 - The production codebase is hosted on [GitHub](https://github.com/kmg0695/portfolio).
-- The site is deployed and hosted on Cloudflare Pages.
+- The site is deployed and hosted on [Cloudflare Pages](https://pages.cloudflare.com/).
+- The website includes sections for showcasing projects, skills, and experience.
+- It also features a blog section for sharing insights and updates.

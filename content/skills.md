@@ -6,7 +6,7 @@ draft: false
 
 ## Languages
 
-Python · JavaScript · Shell Scripting · Java · YAML · Markdown · C# · HTML · CSS · PHP · Swift · R
+Python · JavaScript · Shell Scripting/Bash · Java · YAML · Markdown · C# · HTML · CSS · PHP · Swift · Go
 
 ## Technologies
 
