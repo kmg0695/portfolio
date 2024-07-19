@@ -90,4 +90,9 @@ Temporary Items
 .history
 .ionide
 
+# Node and mise
+node_modules/
+.mise.toml
+
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,hugo,go
+
