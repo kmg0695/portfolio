@@ -12,4 +12,3 @@ draft: false
 - The production codebase is hosted on [GitHub](https://github.com/kmg0695/portfolio).
 - The site is deployed and hosted on [Cloudflare Pages](https://pages.cloudflare.com/).
 - The website includes sections for showcasing projects, skills, and experience.
-- It also features a blog section for sharing insights and updates.
