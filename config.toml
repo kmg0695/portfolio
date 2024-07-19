@@ -22,6 +22,7 @@ disableRSS = true
 disableSitemap = false
 disable404 = false
 disableHugoGeneratorInject = false
+pluralizeListTitles = false
 
 [permalinks]
 posts = "/posts/:year/:month/:title/"
