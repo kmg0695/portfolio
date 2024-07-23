@@ -1,6 +1,12 @@
-{{ define "body" }} <body class="{{ if .Site.Params.backgroundImage }}
-background-image" style="background-image: url('{{ .Site.Params.backgroundImage
-}}');" {{ else }}"{{ end }}> {{ end }} {{ define "main" }}
+{{ define "body" }}
+<body class="{{ if .Site.Params.backgroundImage }} 
+   background-image" 
+   style="background-image: url('{{ .Site.Params.backgroundImage}}');"
+   {{ else }} "
+   {{ end }}> 
+{{ end }}
+
+{{ define "main" }}
 <main aria-role="main">
   <div>
     {{ if .Site.Params.Portrait.Path }}
@@ -13,9 +19,10 @@ background-image" style="background-image: url('{{ .Site.Params.backgroundImage
     {{ end }}
 
     <h1>{{ .Site.Title }}</h1>
-
-    <p>Computer Programming and Analysis Graduate</p>
-    <p>George Brown College</p>
+    {{/*  <p>Computer Programming and Analysis Graduate</p>
+    <p>George Brown College</p>  */}}
+    <p>General Tinkerer of Tech</p>
+    <br>
 
     {{- with .Site.Params.social }}
     <div>{{ partial "social-icons.html" . }}</div>

@@ -2,6 +2,7 @@
 title: "Skills"
 draft: false
 ---
+
 ## Languages
 
 Bash · Python · JavaScript · Markdown · HTML · CSS · Swift
