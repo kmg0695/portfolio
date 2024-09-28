@@ -20,3 +20,4 @@ draft: false
   - Applied Machine Learning
   - DevOps
   - Database Development
+  - Introduction to Cybersecurity

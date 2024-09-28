@@ -7,4 +7,6 @@ I am a programming and analysis graduate at George Brown College with a passion 
 
 Throughout my academic journey, I have maintained a **3.77 GPA** and have been recognized on the dean's list for all years.
 
-Please take a moment to explore my portfolio and learn more about my projects and experiences. Thank you for visiting!
+Please take a moment to explore my portfolio and learn more about my projects and experiences.
+
+Thank you for visiting!
