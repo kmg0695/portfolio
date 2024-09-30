@@ -13,7 +13,7 @@ description = "A tech-oriented personal blog curated by Kym Gripal."
 
 # Appearance settings
 theme = 'auto'
-colorPalette = 'default'
+colorPalette = 'catpuccin'
 hideHeader = false
 
 # Intro on main page, content in markdown
@@ -24,17 +24,13 @@ Please take a moment to explore my portfolio and learn more about my projects an
 
 singleDateFormat = '2 Jan 2006'
 
-# Collection to display on home
-# homeCollectionTitle = 'Posts'
-# homeCollection = 'posts'
-
 # Lists parameters
 paginationSize = 100
-listSummaries = true
+listSummaries = false
 listDateFormat = '02 Jan 2006'
 
 # Breadcrumbs
-breadcrumbs = false
+breadcrumbs = true
 
 showFooter = false
 # footerContent = """Custom"""
@@ -68,7 +64,7 @@ url = "/about-me"
 # Syntax highligth on code blocks
 [markup]
 [markup.highlight]
-style = 'bw'
+style = 'catppuccin-frappe'
 
 # Deploy settings
 [[deployment.matchers]]
@@ -80,12 +76,3 @@ gzip = true
 pattern = "^.+\\.(png|jpg|gif|webp)$"
 cacheControl = "max-age=31536000, no-transform, public"
 gzip = false
-
-[params.giscus]
-enable = false
-repo = "tomfran/blog"
-repoid = "R_kgDOLtSszw"
-category = "General"
-categoryid = "DIC_kwDOLtSsz84CfLm4"
-mapping = "pathname"
-theme = "preferred_color_scheme"
