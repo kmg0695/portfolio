@@ -1,0 +1,91 @@
+baseURL = 'https://kymgripal.com'
+languageCode = 'en-us'
+title = 'Kym Michael Gripal'
+theme = 'typo'
+pluralizeListTitles = false
+showDate = false
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+description = "A tech-oriented personal blog curated by Kym Gripal."
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content in markdown
+homeIntroTitle = 'Hi there!'
+homeIntroContent = """
+Please take a moment to explore my portfolio and learn more about my projects and experiences.
+"""
+
+singleDateFormat = '2 Jan 2006'
+
+# Collection to display on home
+# homeCollectionTitle = 'Posts'
+# homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '02 Jan 2006'
+
+# Breadcrumbs
+breadcrumbs = false
+
+showFooter = false
+# footerContent = """Custom"""
+
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/kym-michael-gripal/"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/kmg0695"
+
+[[params.social]]
+name = "email"
+url = "mailto:hi@kymgripal.com"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "projects"
+url = "/projects"
+
+[[params.menu]]
+name = "about-me"
+url = "/about-me"
+
+# Syntax highligth on code blocks
+[markup]
+[markup.highlight]
+style = 'bw'
+
+# Deploy settings
+[[deployment.matchers]]
+pattern = "^.+\\.(js|css|svg|ttf|woff2)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = true
+
+[[deployment.matchers]]
+pattern = "^.+\\.(png|jpg|gif|webp)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = false
+
+[params.giscus]
+enable = false
+repo = "tomfran/blog"
+repoid = "R_kgDOLtSszw"
+category = "General"
+categoryid = "DIC_kwDOLtSsz84CfLm4"
+mapping = "pathname"
+theme = "preferred_color_scheme"
