@@ -9,7 +9,7 @@ showDate = false
 tag = 'tags'
 
 [params]
-description = "A tech-oriented personal blog curated by Kym Gripal."
+description = "A tech-oriented personal site by Kym Gripal."
 
 # Appearance settings
 theme = 'auto'
@@ -17,10 +17,8 @@ colorPalette = 'catpuccin'
 hideHeader = false
 
 # Intro on main page, content in markdown
-homeIntroTitle = 'Hi there!'
-homeIntroContent = """
-Please take a moment to explore my portfolio and learn more about my projects and experiences.
-"""
+# homeIntroTitle = 'Hi there!'
+homeIntroContent = "I'm currently rewriting this website. In the meantime, below are the links where you can reach out to me!"
 
 singleDateFormat = '2 Jan 2006'
 
@@ -30,15 +28,15 @@ listSummaries = false
 listDateFormat = '02 Jan 2006'
 
 # Breadcrumbs
-breadcrumbs = true
+breadcrumbs = false
 
-showFooter = false
-# footerContent = """Custom"""
+showFooter = true
+footerContent = "[Hi!](https://www.youtube.com/watch?v=HK578NtfM84)"
 
 # Social icons
 [[params.social]]
 name = "linkedin"
-url = "https://www.linkedin.com/in/kym-michael-gripal/"
+url = "https://www.linkedin.com/in/kmg0695/"
 
 [[params.social]]
 name = "github"
@@ -49,17 +47,17 @@ name = "email"
 url = "mailto:hi@kymgripal.com"
 
 # Main menu pages
-[[params.menu]]
-name = "home"
-url = "/"
-
-[[params.menu]]
-name = "projects"
-url = "/projects"
-
-[[params.menu]]
-name = "about-me"
-url = "/about-me"
+# [[params.menu]]
+# name = "home"
+# url = "/"
+#
+# [[params.menu]]
+# name = "projects"
+# url = "/projects"
+#
+# [[params.menu]]
+# name = "about-me"
+# url = "/about-me"
 
 # Syntax highligth on code blocks
 [markup]
